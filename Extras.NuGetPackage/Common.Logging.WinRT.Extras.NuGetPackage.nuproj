@@ -26,16 +26,13 @@
     <Summary>Extra Loggers and Adapters that can be used with Common.Logging.WinRT</Summary>
     <Description>This includes a working DebugOutLogger</Description>
     <ReleaseNotes>The driver targets "Any CPU" but I have only tested it on the Raspberry Pi2 running Windows10 IoT Core.</ReleaseNotes>
-    <ProjectUrl>
-    </ProjectUrl>
+    <ProjectUrl>https://github.com/RodneyWimberly/Common.Logging.WinRT.Extras</ProjectUrl>
     <LicenseUrl>
     </LicenseUrl>
     <Copyright>Copyright © Rodney Wimberly</Copyright>
     <Tags>Logging, Common.Logging.WinRT</Tags>
+    <IconUrl>$(SolutionDir)log.png</IconUrl>
   </PropertyGroup>
-  <ItemGroup>
-    <Content Include="Readme.txt" />
-  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Extras\Common.Logging.WinRT.Extras.csproj" />
   </ItemGroup>

@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Logging.WinRT.Extras
 EndProject
 Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "Common.Logging.WinRT.Extras.NuGetPackage", "Extras.NuGetPackage\Common.Logging.WinRT.Extras.NuGetPackage.nuproj", "{D3E4906B-9E80-480D-A72B-6098895F0E36}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{528500F7-2F7F-46AC-98E4-73899B3DC72C}"
+	ProjectSection(SolutionItems) = preProject
+		log.png = log.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
